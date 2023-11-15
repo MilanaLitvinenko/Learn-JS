@@ -20,13 +20,13 @@
 // multByFactor(10,3)
 // multByFactor(8)
 
-const newPost = (post, addedAt = Date()) => ({
-    ...post,
-    addedAt
-})
+// const newPost = (post, addedAt = Date()) => ({
+//     ...post,
+//     addedAt
+// })
 
-const firstPost = {
-    id: 1,
+// const firstPost = {
+//     id: 1,
 //     author: 'vishenka',
 // }
 // console.log(newPost(firstPost))
@@ -115,6 +115,173 @@ const firstPost = {
 
 // one(multiply,add,2,5)
 
+// const fnWithError = () => {
+//   throw new Error('some error')
+// }
+
+// try{
+//   fnWithError()
+// } catch(error){
+//   console.log(error);
+//   console.log(error.message);
+// }
+
+// console.log('dzsdds');
+
+//(f)(s)(w)(c)
+
+// const myArray = [1,2,3,4] 
+
+// function filter(arr){
+//     let newArr = []
+
+//     for(let i = 0; i < arr.length; i++){
+        
+//         if(arr[i] % 2 === 0){
+//             newArr.push(arr[i])
+//         }
+        
+//     } 
+
+//     return newArr
+// }
+
+// console.log(filter(myArray))
+
+// myArray.forEach((el) => {
+//     return el + 1
+// })
+
+// const filteredNumber3 = myArray.map((el) => {
+//     return el + 5
+// })
+
+// console.log(filteredNumber3)
+
+// const myArr = [1,2,3,4,5]
+// console.log(myArr);
+
+// myArr.pop();
+// console.log(myArr);
+
+// const removedEl = myArr.pop()
+// console.log(myArr);
+// console.log(removedEl);
+
+// myArr.unshift(true)
+// console.log(myArr);
+
+// myArr.shift()
+// console.log(myArr);
+
+// const myArr = [1,2,3,4,10,3,5,1,5,88,56,43,3,76,3,5,856,3,4,5,66,54,3,345,77]
+// console.log(myArr);
+
+// const res = myArr.map((el, index, arr) => {
+//    return el * 2
+// })
+
+// const filterednum = myArr.filter((el) => el < 5)
+// console.log(myArr);
+// console.log(res);
+// console.log(filterednum);
+// console.log(myArr);
+
+// [
+//     {
+        // img: 'http?',
+        // description: 'Ноутбук Acer Aspire 7 A715-43G-R92H',
+    //     price: '32 999₴',
+    //     status: 'заканчивается'
+    // },
+    // {
+    //     img: 'http?',
+    //     description: 'Ноутбук Acer Aspire 7 A715-43G-R92H',
+    //     price: '32 999₴',
+//         status: 'заканчивается'
+//     },
+//     {
+//         img: 'http?',
+//         description: 'Ноутбук Acer Aspire 7 A715-43G-R92H',
+//         price: '32 999₴',
+//         status: 'заканчивается'
+//     },
+//     {
+//         img: 'http?',
+//         description: 'Ноутбук Acer Aspire 7 A715-43G-R92H',
+//         price: '32 999₴',
+//         status: 'заканчивается'
+//     },
+//     {
+//         img: 'http?',
+//         description: 'Ноутбук Acer Aspire 7 A715-43G-R92H',
+//         price: '32 999₴',
+//         status: 'заканчивается'
+//     },
+//     {
+//         img: 'http?',
+//         description: 'Ноутбук Acer Aspire 7 A715-43G-R92H',
+//         price: '32 999₴',
+//         status: 'заканчивается'
+//     },
+   
+// ]
+
+// ориг массив не изменился
+
+// console.log(myArr);
+// const myArr = [1,2,3,4]
+// console.log(myArr);
+
+// const newArr = myArr.map(el => el * 3)
+
+// console.log(newArr);
+// console.log(myArr);
+
+// const numbers = [1, 2, 3, 4];
+
+// const doubledNumbers = numbers.map((num) =>{
+//     return num * 2;
+// });
+
+// console.log(doubledNumbers);
+
+// const words = ["apple", "banana", "cherry", "date"];
+// console.log(words);
+
+// words.forEach((word) => {
+//     console.log(word.toUpperCase());
+// });
+
+// деструктуризация массивов
+
+// const fruits = ['apple', 'banana']
+
+// const [fruitOne, fruitTwo] = fruits
+
+// console.log(fruitOne);
+// console.log(fruitTwo);
 
 
+// const userPro = {
+//     name: 'vishnya',
+//     comm: 6,
+//     boo: true,
+// }
+
+// const userInfo = ({name, comm}) => {
+//     if(!comm){
+//         return `user ${name} has no comments`
+//     }
+//     return `user ${name} has ${comm} comments`
+// }
+// console.log(userInfo(userPro));
+
+// условние инструкции
+
+// let val = 10
+// if (val > 5){
+//     val += 20
+// }
+// console.log(val);
 
