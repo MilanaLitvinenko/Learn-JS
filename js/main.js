@@ -285,3 +285,73 @@
 // }
 // console.log(val);
 
+// const age = 5
+
+// if(age > 18){
+//     console.log('is adult')
+// } else if (age >= 12){
+//     console.log('is teenager')
+// } else {
+//     console.log('is child');
+// }
+// if(age >= 18){
+//     console.log('is adult')
+// }
+
+// if(age >= 12 && age < 18){
+//     console.log('is teenager')
+// }
+
+// if(age < 12){
+//     console.log('is child');
+// }
+
+// const sumNum = (a,b) => {
+//     if(typeof a !== 'number' || typeof b !== 'number'){
+//         return 'one of the arr is not a number'
+//     }
+//     if(a <= 0 || b <= 0){
+//         return 'numbers are not positive'
+//     }
+//     return a + b
+// }
+// console.log(sumNum('str',4));
+// const month = 12
+
+// switch (month) {
+//     case 12:
+//         console.log('декабрь');
+//         break;
+//     case 1:
+//         console.log('январь');
+//         break
+//     case 2:
+//         console.log('февраль');
+//         break;
+//     default:
+//         console.log('это не зимний месяц');
+// }
+
+// тернарный оператор
+
+// const value = '11'
+
+// value === 11
+// ? console.log('условие истино')
+// : console.log('условие ложно')
+
+// const value1 = 11
+// const value2 = 22
+
+// value1 && value2
+// ? myFun1(value1, value2)
+// : myFun2()
+
+let value = 11
+console.log(value >= 0 ? value : -value);
+
+value = -5
+const res = value >= 0 ? value : -value
+console.log(res);
+
+//  const myArr = ['one', 'two', 'three']
