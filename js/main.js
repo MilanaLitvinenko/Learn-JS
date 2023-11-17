@@ -347,11 +347,112 @@
 // ? myFun1(value1, value2)
 // : myFun2()
 
-let value = 11
-console.log(value >= 0 ? value : -value);
+// let value = 11
+// console.log(value >= 0 ? value : -value);
 
-value = -5
-const res = value >= 0 ? value : -value
-console.log(res);
+// value = -5
+// const res = value >= 0 ? value : -value
+// console.log(res);
+
 
 //  const myArr = ['one', 'two', 'three']
+
+//  for(let i = 0; i < myArr.length; i++){
+//     console.log(myArr[i]);
+//  }
+
+// const myArr = ['one', 'two', 'three']
+
+// myArr.forEach((element, index) => {
+//     console.log(element,index);
+// })
+
+// цикл while
+// let i = 0;
+
+// while(i < 8){
+//     console.log(i);
+//     i++
+// }
+
+// цикл do while
+
+// let i = 0;
+
+// do{
+//     console.log(i);
+//     i++
+// } while(i < 5)
+
+// let i = 10
+
+// do{
+//     console.log(i);
+//     i++
+// } while(i < 5)
+
+// цикл for in
+
+// const myObj = {
+//     name: 'Bob',
+//     password: 123,
+//     age: 18
+// }
+
+// for(const key in myObj){
+//     console.log(key, myObj[key]);
+// }
+
+// const myObj = {
+//     name: 'Bob',
+//     password: 123,
+//     age: 18
+// }
+
+// Object.keys(myObj).forEach(key => {
+//     console.log(key, myObj[key]);
+// })
+
+// перебор значения свойств объекта
+
+// const myObj = {
+//     name: 'Bob',
+//     password: 123,
+//     age: 18
+// }
+
+// Object.values(myObj).forEach(value => {
+//     console.log(value);
+// })
+
+// for in для массива
+
+// const myArr = [true, 10, 'abc', null];
+
+// for(const key in myArr){
+//     console.log(myArr[key]);
+// }
+
+// цикл for of
+
+// для строк
+// const myStr = 'hey'
+
+// for(const letter of myStr){
+//     console.log(letter);
+// }
+
+// для массивов
+// const myArr = [true, 10, 'abc', null];
+
+// for(const el of myArr){
+//     console.log(el);
+// }
+
+// const myArr = [true, 10, 'abc', null];
+
+// myArr.forEach(el => {
+//     console.log(el);
+// })
+
+// модули
